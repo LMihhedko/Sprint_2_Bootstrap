@@ -1,0 +1,24 @@
+{
+  "name": "sprint_2_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lilim1998/Sprint_2_Bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lilim1998/Sprint_2_Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Lilim1998/Sprint_2_Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
