@@ -1,14 +1,11 @@
-.background {
-  background-image: url("../img/tarta.jpg");
-  background-size: cover;
+.background-header {
+  background-image: url(../img/tarta.jpg) !important;
 }
 
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
+.background-services {
+  background-image: url(../img/cumple.jpg) !important;
 }
 
-.carousel {
-  width: 50%;
-  margin: auto;
+.background-contacto {
+  background-image: url(../img/dos_pastelitos.jpg) !important;
 }
