@@ -9,10 +9,10 @@
   <!-- CDN - Bootstrap CSS -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
-<!-- Bootstrap CSS -->
-<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
 
-  <!-- Bootstrap -->
+  <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
@@ -20,155 +20,157 @@
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <div class="container-fluid">
-      <!-- logo -->
-      <img src="img/logo2.png" alt="" width="60" class='mr-4'>
-      <a class="navbar-brand" href="#">CakeShop</a>
-      <!-- menu hamburguesa -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- enlaces -->
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tartas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Chocolates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Regalos</a>
-          </li>
-          <li class="nav-item mb-4 mb-sm-0">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <div class="container-fluid">
+    <!-- logo -->
+    <img src="img/logo2.png" alt="" width="60" class='mr-4'>
+    <a class="navbar-brand" href="#">CakeShop</a>
+    <!-- menu hamburguesa -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tartas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Chocolates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Regalos</a>
+        </li>
+        <li class="nav-item mb-4 mb-sm-0">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
     </div>
-    <!-- botones -->
-    <button class="btn btn-success btn-outline-dark mr-4" type="button" data-toggle="modal" data-target="#login">Login</button>
-    <button class="btn btn-success btn-outline-dark" type="button" data-toggle="modal" data-target="#registro">Registro</button>
-  </nav>
+  </div>
+  <!-- botones -->
+  <button class="btn btn-success btn-outline-dark mr-4" type="button" data-toggle="modal" data-target="#login">Login</button>
+  <button class="btn btn-success btn-outline-dark" type="button" data-toggle="modal" data-target="#registro">Registro</button>
+</nav>
 
 
-  <div class='container-fluid'>
+<div class='container-fluid'>
 
-    <!-- Modal LOGIN-->
-    <div class="modal" id="login">
-      <div class="modal-dialog">
-        <div class="modal-content">
+<!-- Modal LOGIN-->
 
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Iniciar sesión</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
+<div class="modal" id="login">
+  <div class="modal-dialog">
+    <div class="modal-content">
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <form action="#">
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" placeholder="Introduzca email" id="email" required>
-              </div>
-              <div class="form-group">
-                <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" placeholder="Introduzca constraseña" id="pwd" required>
-              </div>
-              <div class="form-group form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox"> Recuérdame
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary mt-4">Iniciar sesión</button>
-            </form>
-          </div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
-
-        </div>
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Iniciar sesión</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
-    </div>
 
-    <!-- Modal REGISTRO-->
-    <div class="modal" id="registro">
-      <div class="modal-dialog">
-        <div class="modal-content">
-
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Registro</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form action="#">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" placeholder="Introduzca email" id="email" required>
           </div>
+          <div class="form-group">
+            <label for="pwd">Contraseña:</label>
+            <input type="password" class="form-control" placeholder="Introduzca constraseña" id="pwd" required>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Recuérdame
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary mt-4">Iniciar sesión</button>
+        </form>
+      </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <form action="#">
-              <div class="container">
-                <div class="form-group">
-                  <label for="name">Nombre</label>
-                  <input type="text" class="form-control" placeholder="Introduzca nombre" id="name" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="text" class="form-control" placeholder="Introduzca email" id="email" required>
-                </div>
-                <div class="form-group">
-                  <label for="psw">Contraseña</label>
-                  <input type="password" class="form-control" placeholder="Introduzca contraseña" id="psw" required>
-                </div>
-                <div class="form-group">
-                  <label for="psw-repeat">Repita la contraseña</label>
-                  <input type="password" class="form-control" placeholder="Introduzca contraseña" id="psw-repeat"
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal REGISTRO-->
+
+<div class="modal" id="registro">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Registro</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form action="#">
+          <div class="container">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" placeholder="Introduzca nombre" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" placeholder="Introduzca email" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="psw">Contraseña</label>
+              <input type="password" class="form-control" placeholder="Introduzca contraseña" id="psw" required>
+            </div>
+            <div class="form-group">
+              <label for="psw-repeat">Repita la contraseña</label>
+              <input type="password" class="form-control" placeholder="Introduzca contraseña" id="psw-repeat"
                     required>
-                </div>
-              </div>
-
-              <p>Con la creación de la cuenta acepta los <a href="#">Términos y Condiciones</a></p>
-              <button type="submit" class="btn btn-primary mt-3">Registrarse</button>
-            </form>
+            </div>
           </div>
 
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
-
-        </div>
+          <p>Con la creación de la cuenta acepta los <a href="#">Términos y Condiciones</a></p>
+          <button type="submit" class="btn btn-primary mt-3">Registrarse</button>
+        </form>
       </div>
-    </div>
 
-    <!-- Header -->
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div></div>
+
+<!-- Header -->
+
+<div class="row">
+  <header class="col jumbotron background jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4 text-light">
+        <b>Tienda de Tartas CakeShop</b>
+      </h1>
+      <p class="lead text-light"><b>Las mejores tartas y dulces, compruébalo.</b></p>
+      <button type="button" class="btn btn-dark btn-lg">Pide tu tarta ya!</button>
+    </div>
+  </header>
+</div>
+
+
+<!-- Contenido  -->
+<h2 class='mb-4 text-muted'>Compra nuestras tartas en la tienda online</h2>
 
     <div class="row">
-      <header class="col jumbotron background jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4 text-light">
-            <b>Tienda de Tartas CakeShop</b>
-          </h1>
-          <p class="lead text-light"><b>Las mejores tartas y dulces, compruébalo.</b></p>
-          <button type="button" class="btn btn-dark btn-lg">Pide tu tarta ya!</button>
-        </div>
-      </header>
-    </div>
 
-
-    <!-- Content  -->
-    <h2 class='mb-4 text-muted'>Compra nuestras tartas en la tienda online</h2>
-
-    <div class="row">
-
-      <!-- first column -->
+      <!-- Columna 1 -->
       <div class="col justify-content-center pb-4 d-flex align-items-stretch">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/tarta_chocolate.jpg">
@@ -180,7 +182,7 @@
         </div>
       </div>
 
-      <!-- second column -->
+      <!-- Columna 2 -->
       <div class="col justify-content-center pb-4 d-flex align-items-stretch">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/red_velvet_tarta.jpg">
@@ -192,7 +194,7 @@
         </div>
       </div>
 
-      <!-- third column -->
+      <!-- Columna 3 -->
       <div class="col justify-content-center pb-4 d-flex align-items-stretch">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/tarta_kinder.jpg">
@@ -204,7 +206,7 @@
         </div>
       </div>
 
-      <!-- forth column -->
+      <!-- Columna 4 -->
       <div class="col justify-content-center pb-4 d-flex align-items-stretch">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/carrot_cake.jpg" height='190px'>
@@ -258,31 +260,34 @@
       </div>
     </div>
 
-    <footer class="row pt-4 bg-danger">
+<!-- Footer -->
 
-      <!-- first column -->
-      <div class="col">
-        <small>
-          <p>© 2021</p>
-        </small>
-      </div>
+<footer class="row pt-4 bg-danger">
 
-      <!-- second column -->
-      <div class="col-8 d-flex justify-content-center flex-wrap">
-        <a href="#" class="text-dark mr-4">Sobre nosotros</a>
-        <a href="#" class="text-dark mr-4">Atención al Cliente</a>
-        <a href="#" class="text-dark">Política de Privacidad</a>
-      </div>
+  <!-- Columna 1 -->
+  <div class="col">
+    <small>
+      <p>© 2021</p>
+    </small>
+  </div>
 
-      <!-- third column -->
-      <div class="col">
-        <small>
-          <p class="text-right">CakeShop</p>
-        </small>
-      </div>
+  <!-- Columna 2 -->
+  <div class="col-8 d-flex justify-content-center flex-wrap">
+    <a href="#" class="text-dark mr-4">Sobre nosotros</a>
+    <a href="#" class="text-dark mr-4">Atención al Cliente</a>
+    <a href="#" class="text-dark">Política de Privacidad</a>
+  </div>
 
-    </footer>
+  <!-- Columna 3 -->
+  <div class="col">
+    <small>
+      <p class="text-right">CakeShop</p>
+    </small>
+  </div>
 
+</footer>
+
+    <!--jQuery, popper, bootstrap -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
